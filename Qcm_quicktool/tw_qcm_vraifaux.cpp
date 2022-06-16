@@ -187,12 +187,12 @@ wims(makelist r x for x = \N*\u -\N+1 to \N*\u)
   <strong>Question \t:</strong>
   \PRELIMINAIRE[\N*(\step-1) + \t;]
    <div class="question">   
-   \phrase[\N*(\step-1) + \t;]   
-   <p class="wimscenter">
-    \embed{\STEPS[\step;\t] }    
-    </p>
+      \phrase[\N*(\step-1) + \t;]   
+      <div class="wimscenter">
+         \embed{\STEPS[\step;\t] }    
+      </div>
     <hr class="style-one">
-    </div>
+   </div>
    }
 }
 
